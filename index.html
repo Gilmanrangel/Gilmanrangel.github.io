@@ -6,119 +6,191 @@
     <title>Gilman Pinto Rangel Gomes</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 <body>
 
-    <nav class="navbar">
+<nav class="navbar">
 
-        <div class="logo">
-            Gilman Gomes
-        </div>
+    <div class="logo">
+        Gilman Gomes
+    </div>
 
-        <ul class="nav-links">
-            <li><a href="#about">Tentang</a></li>
-            <li><a href="#skills">Skill</a></li>
-            <li><a href="#projects">Proyek</a></li>
-            <li><a href="#contact">Kontak</a></li>
-        </ul>
+    <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+    </ul>
 
-    </nav>
+</nav>
 
-    <section class="hero">
+<section class="hero">
 
-        <div class="hero-content">
+    <div class="hero-content">
 
-            <h1>
-                Gilman Pinto
-                <span>Rangel Gomes</span>
-            </h1>
+        <h1>
+            Gilman Pinto
+            <span>Rangel Gomes</span>
+        </h1>
 
-            <h2>22120027 | Teknik Informatika</h2>
-
-            <p>
-                Mahasiswa Teknik Informatika yang berfokus pada
-                Web Development, Networking, dan Software Engineering.
-            </p>
-
-            <button id="btnProject">
-                Lihat Proyek
-            </button>
-
-        </div>
-
-    </section>
-
-    <section id="about">
-
-        <h2>Tentang Saya</h2>
+        <h2>22120027 | Teknik Informatika</h2>
 
         <p>
-            Saya adalah mahasiswa Teknik Informatika yang memiliki
-            minat pada pengembangan aplikasi web, jaringan komputer,
-            pengolahan citra digital, dan pengembangan game.
+            Mahasiswa Teknik Informatika yang berfokus pada
+            Web Development, Networking, dan Software Engineering.
         </p>
 
-    </section>
+        <button id="btnProject">
+            Lihat Proyek
+        </button>
 
-    <section id="skills">
+        <div class="stats">
 
-        <h2>Keahlian</h2>
+            <div class="stat-box">
+                <h3>4+</h3>
+                <p>Proyek</p>
+            </div>
 
-        <div class="grid">
+            <div class="stat-box">
+                <h3>3+</h3>
+                <p>Tahun Belajar</p>
+            </div>
 
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">Laravel</div>
-            <div class="card">MySQL</div>
-            <div class="card">Python</div>
-            <div class="card">Unity</div>
-            <div class="card">Cisco Networking</div>
+            <div class="stat-box">
+                <h3>100%</h3>
+                <p>Passion</p>
+            </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <section id="projects">
+</section>
 
-        <h2>Proyek Saya</h2>
+<section id="about" data-aos="fade-up">
 
-        <div class="grid">
+    <h2>Tentang Saya</h2>
 
-            <div class="card">
+    <p class="about-text">
+        Saya adalah mahasiswa Teknik Informatika yang memiliki
+        minat pada pengembangan aplikasi web, jaringan komputer,
+        pengolahan citra digital, dan pengembangan game.
+    </p>
+
+</section>
+
+<section id="skills" data-aos="fade-up">
+
+    <h2>Keahlian</h2>
+
+    <div class="grid">
+
+        <div class="card"><i class="fa-brands fa-html5"></i> HTML</div>
+        <div class="card"><i class="fa-brands fa-css3"></i> CSS</div>
+        <div class="card"><i class="fa-brands fa-js"></i> JavaScript</div>
+        <div class="card"><i class="fa-brands fa-laravel"></i> Laravel</div>
+        <div class="card"><i class="fa-solid fa-database"></i> MySQL</div>
+        <div class="card"><i class="fa-brands fa-python"></i> Python</div>
+        <div class="card"><i class="fa-solid fa-gamepad"></i> Unity</div>
+        <div class="card"><i class="fa-solid fa-network-wired"></i> Networking</div>
+
+    </div>
+
+</section>
+
+<section id="projects" data-aos="fade-up">
+
+    <h2>Proyek Saya</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <img src="assets/images/pos.png" alt="POS">
+
+            <div class="project-content">
                 <h3>POS Toko Bangunan</h3>
                 <p>Sistem penjualan berbasis Laravel.</p>
             </div>
 
-            <div class="card">
+        </div>
+
+        <div class="project-card">
+
+            <img src="assets/images/batik.png" alt="Batik">
+
+            <div class="project-content">
                 <h3>Klasifikasi Batik</h3>
                 <p>Pengolahan citra menggunakan GLCM dan K-NN.</p>
             </div>
 
-            <div class="card">
+        </div>
+
+        <div class="project-card">
+
+            <img src="assets/images/unity.png" alt="Unity">
+
+            <div class="project-content">
                 <h3>Unity Game</h3>
                 <p>Pengembangan game 3D menggunakan Unity.</p>
             </div>
 
-            <div class="card">
+        </div>
+
+        <div class="project-card">
+
+            <img src="assets/images/network.png" alt="Network">
+
+            <div class="project-content">
                 <h3>Cisco Networking</h3>
-                <p>Implementasi Routing, DNS, FTP, SSH, dan Mail Server.</p>
+                <p>Routing, DNS, FTP, SSH, Mail Server.</p>
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <section id="contact">
+</section>
 
-        <h2>Kontak</h2>
+<section id="contact" data-aos="fade-up">
 
-        <p>GitHub: Gilmanrangel</p>
-        <p>Domain: gilmangomes.my.id</p>
+    <h2>Kontak</h2>
 
-    </section>
+    <p>GitHub : Gilmanrangel</p>
+    <p>Domain : gilmangomes.my.id</p>
 
-    <script src="js/script.js"></script>
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Gilman Pinto Rangel Gomes
+    </p>
+
+    <p>
+        Teknik Informatika | 22120027
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
 
 </body>
 </html>
