@@ -1,1 +1,11 @@
-console.log("Portfolio Gilman Loaded");
+document
+.getElementById("btnProject")
+.addEventListener("click", () => {
+
+    document
+    .getElementById("projects")
+    .scrollIntoView({
+        behavior:"smooth"
+    });
+
+});
